@@ -272,6 +272,7 @@ header{
 }
 .btn_tour{
 	border-radius: 0;
+	text-transform: capitalize;
 	transition: .33s ease-in-out;
 }
 .btn_tour:hover {
