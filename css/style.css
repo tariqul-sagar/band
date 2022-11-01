@@ -1,0 +1,92 @@
+/*Font Family start*/
+@font-face{
+	src: url(../fonts/OpenSans-Regular.ttf);
+	font-family: OpenSans-Regular;
+}
+
+@font-face{
+	src: url(../fonts/Raleway-Medium.ttf);
+	font-family: Raleway-Medium;
+}
+
+@font-face{
+	src: url(../fonts/Sacramento-Regular.ttf);
+	font-family: Sacramento-Regular;
+}
+
+@font-face{
+	src: url(../fonts/PlayfairDisplay-Regular.otf);
+	font-family: PlayfairDisplay-Regular;
+}
+/*Font Family end*/
+
+/*Common CSS start*/
+body{
+	font-family: OpenSans-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #727272;
+}
+.btn_common{
+	width: 165px;
+	height: 45px;
+	color: #727272;
+	border: 1px solid #000000;
+	background-color: #000000;
+	text-transform: uppercase;
+	transform: .33s ease-in-out;
+}
+.btn_common:hover{
+	color: #ecae3d !important;
+}
+/*Common CSS end*/
+
+
+/*Header CSS start*/
+header{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header-top{
+	padding-top: 20px;
+}
+.custom_nav{}
+.logo{}
+.c_nav_button{}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	margin: 0 15px;
+	font-family: Raleway-Medium;
+	color: #ffffff !important;
+	text-transform: uppercase;
+	transform: .33s ease-in-out;
+}
+.menu ul li a:hover{
+	color: #ecae3d !important;
+}
+.header-body{
+	padding: 150px 0 300px;
+	text-align: center;
+}
+.h_h2{
+	margin: 0;
+	font-family: Sacramento-Regular;
+	font-size: 40px;
+	color: #ecae3d;
+}
+.h_h1{
+	margin: 0 0 70px;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 90px;
+	color: #ffffff;
+}
+.btn_banner{
+	color: #ffffff;
+	background-color: transparent;
+	border: 0;
+}
+/*Header CSS end*/
