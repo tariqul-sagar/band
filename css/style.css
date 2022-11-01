@@ -5,6 +5,11 @@
 }
 
 @font-face{
+	src: url(../fonts/OpenSans-Semibold.ttf);
+	font-family: OpenSans-Semibold;
+}
+
+@font-face{
 	src: url(../fonts/Raleway-Medium.ttf);
 	font-family: Raleway-Medium;
 }
@@ -155,3 +160,69 @@ header{
 	color: #ecae3d;
 }
 /*Feature CSS end*/
+
+/*Band section start*/
+.band{}
+.band_left{}
+.band_left img{
+	width: 710px;
+	height: 710px;
+}
+.b_right_h1{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 40px;
+	color: #101010;
+	text-transform: uppercase;
+}
+.b_r_shape{
+	margin: 0;
+	width: 14%;
+}
+.band_content{
+	margin: 60px 0 0;
+	border: 1px solid #e7d9d9;
+	text-align: center;
+	transition: .33s ease-in-out;
+}
+.band_img{}
+.band_img img{
+	width: 100%;
+}
+.band_footer{
+	padding: 40px 30px;
+	transition: .33s ease-in-out;
+}
+.b_h3{
+	font-family: Raleway-Medium;
+	font-size: 18px;
+	font-weight: 600;
+	color: #272727;
+}
+.b_p1{
+	font-family: Raleway-Medium;
+	color: #ecae3d;
+}
+.band_content hr{}
+.b_p2{
+	font-family: OpenSans-Semibold;
+}
+.band_content:hover .band_footer{
+	background-color: #000000;
+	cursor: pointer;
+}
+.band_content:hover .band_footer .b_h3{
+	color: #ffffff;
+	cursor: pointer;
+}
+/*Band section end*/
+
+/*Tour CSS start*/
+.tour{
+	padding: 100px 0;
+	background-color: #f5f5f5;
+}
+.t_h1{}
+.t_h1 span{
+	font-family: OpenSans-Regular;
+}
+/*Tour CSS end*/
