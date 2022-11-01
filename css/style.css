@@ -39,6 +39,22 @@ body{
 .btn_common:hover{
 	color: #ecae3d !important;
 }
+.common_title{
+	text-align: center;
+}
+.common_h1{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 40px;
+	color: #101010;
+	text-transform: uppercase;
+}
+.common_shape{
+	margin: 0 auto;
+	width: 24%;
+	height: 2px;
+	color: #ecae3d;
+	background-color: #ecae3d;
+}
 /*Common CSS end*/
 
 
@@ -90,3 +106,52 @@ header{
 	border: 0;
 }
 /*Header CSS end*/
+
+/*Feature CSS start*/
+.feature{
+	padding: 100px 0 120px;
+	background-color: #f5f5f5;
+}
+.f_h1{
+	text-transform: capitalize;
+}
+.feature_wrapper{
+	margin-top: 50px;
+	padding: 0 40px 40px;
+	background-color: #ffffff;
+}
+.feature_content{
+	margin-top: 50px;
+}
+.feature_img{
+	position: relative;
+}
+.feature_img img{
+	width: 100%;
+}
+.f_price{
+	padding: 10px 25px;
+	position: absolute;
+	font-size: 20px;
+	bottom: -9%;
+	left: 28%;
+	color: #ecae3d;
+	background-color: #ffffff;
+}
+.feature_intro{
+	margin-top: 25px;
+	text-align: center;
+}
+.f_h2{
+	margin: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 20px;
+	color: #101010;
+	text-transform: uppercase;
+}
+.f_p{
+	margin: 0;
+	font-weight: 500;
+	color: #ecae3d;
+}
+/*Feature CSS end*/
