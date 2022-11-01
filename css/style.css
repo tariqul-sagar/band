@@ -23,6 +23,16 @@
 	src: url(../fonts/PlayfairDisplay-Regular.otf);
 	font-family: PlayfairDisplay-Regular;
 }
+
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+
+@font-face{
+	src: url(../fonts/Roboto-Medium.ttf);
+	font-family: Roboto-Medium;
+}
 /*Font Family end*/
 
 /*Common CSS start*/
@@ -221,8 +231,52 @@ header{
 	padding: 100px 0;
 	background-color: #f5f5f5;
 }
+.t_title{
+	margin-bottom: 50px;
+}
 .t_h1{}
 .t_h1 span{
 	font-family: OpenSans-Regular;
+}
+.tour_content{
+	margin-top: 10px;
+	padding: 30px;
+	background-color: #ffffff;
+}
+.date{
+	padding: 25px 12px;
+	color: #ecae3d;
+	border: 1px solid #727272;
+	text-align: center;
+	text-transform: uppercase;
+}
+.tour_img{}
+.tour_img img{
+	width: 100%;
+}
+.inner_content{
+	margin: 25px 0 0;
+}
+.inner_p{}
+.seat{
+	margin-top: 25px;
+	text-align: center;
+}
+.seat p{}
+.seat p span{
+	font-weight: 600;
+	color: #101010;
+}
+.tour_button{
+	margin-top: 25px;
+}
+.btn_tour{
+	border-radius: 0;
+	transition: .33s ease-in-out;
+}
+.btn_tour:hover {
+	color: #ffffff !important;
+	border: 1px solid #ecae3d !important;
+	background-color: #ecae3d !important;
 }
 /*Tour CSS end*/

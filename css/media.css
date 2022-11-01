@@ -258,6 +258,21 @@
 		margin-top: 40px;
 	}
 	/*Band end*/
+
+	/*Tour start*/
+	.date {
+	    padding: 16px 0px;
+	}
+	.inner_content{
+		margin: 20px 0 0;
+	}
+	.seat{
+		margin-top: 20px;
+	}
+	.tour_button{
+		margin-top: 20px;
+	}
+	/*Tour end*/
 }
 
 /*Extra extra large devices (large desktops, 1200px and up)*/
