@@ -28,7 +28,7 @@
 
 	/*Feature start*/
 	.feature{
-		padding: 70px 0 80px;
+		padding: 70px 0;
 	}
 	.common_h1{
 		font-size: 22px;
@@ -147,7 +147,7 @@
 
 	/*Consert start*/
 	.consert{
-		padding: 70px 0 80px;
+		padding: 70px 0;
 	}
 	.consert_h1 {
 	    font-size: 30px;
@@ -160,6 +160,26 @@
 		width: 130px;
 	}
 	/*Consert end*/
+
+	/*People start*/
+	.people{
+		padding: 70px 0;
+	}
+	.people_content {
+	    margin-top: 35px;
+	    text-align: center;
+	}
+	.p_img img{
+	    width: 40%;
+	}
+	.people_p1{
+		margin: 18px 0 0;
+		padding: 0;
+	}
+	.people_button {
+	    margin-top: 30px;
+	}
+	/*People end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -185,7 +205,7 @@
 
 	/*Feature start*/
 	.feature{
-		padding: 70px 0 80px;
+		padding: 70px 0;
 	}
 	.common_h1{
 		font-size: 30px;
@@ -300,7 +320,7 @@
 
 	/*Consert start*/
 	.consert{
-		padding: 70px 0 80px;
+		padding: 70px 0;
 	}
 	.consert_h1 {
 	    font-size: 30px;
@@ -314,6 +334,26 @@
 		width: 130px;
 	}
 	/*Consert end*/
+
+	/*People start*/
+	.people{
+		padding: 70px 0;
+	}
+	.people_content {
+	    margin-top: 45px;
+	    text-align: center;
+	}
+	.p_img img{
+	    width: 45%;
+	}
+	.people_p1{
+		margin: 20px 0 0;
+		padding: 0 40px;
+	}
+	.people_button {
+	    margin-top: 35px;
+	}
+	/*People end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -339,7 +379,7 @@
 
 	/*Feature start*/
 	.feature{
-		padding: 80px 0 100px;
+		padding: 80px 0;
 	}
 	.common_h1{
 		font-size: 34px;
@@ -429,7 +469,7 @@
 
 	/*Consert start*/
 	.consert{
-		padding: 80px 0 100px;
+		padding: 80px 0;
 	}
 	.consert_h1 {
 	    font-size: 35px;
@@ -441,6 +481,23 @@
 		width: 150px;
 	}
 	/*Consert end*/
+
+	/*People start*/
+	.people{
+		padding: 80px 0;
+	}
+	.people_content {
+	    margin-top: 45px;
+	    text-align: center;
+	}
+	.p_img img{
+	    width: 45%;
+	}
+	.people_p1{
+		margin: 20px 0 0;
+		padding: 0 15px;
+	}
+	/*People end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -498,6 +555,12 @@
 		margin: 85px 0 0;
 	}
 	/*Gallery end*/
+
+	/*People start*/
+	.people_h3 {
+	    margin: 10px 0 0;
+	}
+	/*People end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
@@ -547,4 +610,10 @@
 		margin: 125px 0 0;
 	}
 	/*Gallery end*/
+
+	/*People start*/
+	.people_p1 {
+	    margin: 10px 0 0;
+	}	
+	/*People end*/
 }

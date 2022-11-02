@@ -129,7 +129,7 @@ header{
 
 /*Feature CSS start*/
 .feature{
-	padding: 100px 0 120px;
+	padding: 100px 0;
 	background-color: #f5f5f5;
 }
 .f_h1{
@@ -358,7 +358,7 @@ header{
 
 /*Consert CSS start*/
 .consert{
-	padding: 100px 0 120px;
+	padding: 100px 0;
 	background-image: url(../images/consert.jpg);
 	background-position: center;
 	background-size: cover;
@@ -392,3 +392,60 @@ header{
 	border: 1px solid #ecae3d !important;
 }
 /*Consert CSS end*/
+
+/*People CSS start*/
+.people{
+	padding: 100px 0;
+}
+.p_h1{}
+.people_wrapper{}
+.peopple_inner{}
+.people_item{}
+.people_content{
+	margin-top: 70px;
+}
+.p_img{}
+.p_img img{
+	width: 100%;
+}
+.p_inner_content{}
+.people_p1{
+	margin: 0;
+}
+.people_h3{
+	margin: 20px 0 0;
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	color: #101010;
+}
+.people_p2{
+	margin: 0;
+	font-variant-position: 15px;
+	color: #ecae3d;
+}
+.people_button{
+	margin-top: 65px;
+	text-align: center;
+}
+.people_button2{
+	border: 0;
+	background-color: transparent;
+}
+.people_button2 ul{}
+.people_button2 ul li{
+	padding: 3px 10px;
+	color: #101010;
+	background-color: transparent;
+	border: 1px solid #727272;
+	border-radius: 50%;
+	transition: .33s ease-in-out;
+}
+.people_button2 ul li:hover{
+	color: #ffffff;
+	background-color: #101010;
+	border: 1px solid #101010;
+}
+.people_button2 ul li i{
+	font-size: 16px;
+}
+/*People CSS end*/
