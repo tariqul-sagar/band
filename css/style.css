@@ -257,18 +257,22 @@ header{
 .inner_content{
 	margin: 25px 0 0;
 }
+.t_h2{}
 .inner_p{}
 .seat{
 	margin-top: 25px;
 	text-align: center;
 }
-.seat p{}
+.seat p{
+	font-size: 14px;
+}
 .seat p span{
 	font-weight: 600;
 	color: #101010;
+	display: block;
 }
 .tour_button{
-	margin-top: 25px;
+	margin: 25px auto 0;
 }
 .btn_tour{
 	border-radius: 0;

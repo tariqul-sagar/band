@@ -80,6 +80,42 @@
 		padding: 30px 10px;
 	}
 	/*Band end*/
+
+	/*Tour start*/
+	.tour{
+		padding: 70px 0;
+	}
+	.date {
+	    padding:15px 0;
+	    font-size: 14px;
+	}
+	.inner_content {
+	    margin: 25px 0 0;
+	    text-align: center;
+	}
+	.inner_p {
+	    font-size: 14px;
+	}
+	.t_h2 {
+	    font-size: 18px;
+	}
+	.seat{
+		margin: 20px auto 0;
+	}
+	.seat p{
+		margin: 0;
+	}
+	.tour_button{
+		margin: 25px auto 0;
+	}
+	.btn_tour {
+	    width: 110px;
+	    height: 35px;
+	    color: #ffffff;
+		border: 1px solid #ecae3d;
+	    background-color: #ecae3d;
+	}
+	/*Tour end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -157,6 +193,41 @@
 		padding: 30px 10px;
 	}
 	/*Band end*/
+
+	/*Tour start*/
+	.tour{
+		padding: 70px 0;
+	}
+	.date {
+	    padding:15px 0;
+	    font-size: 14px;
+	}
+	.inner_content {
+	    margin: 6px 0 0;
+	}
+	.inner_p {
+	    font-size: 14px;
+	}
+	.t_h2 {
+	    font-size: 18px;
+	}
+	.seat{
+		margin: 20px auto 0;
+	}
+	.seat p{
+		margin: 0;
+	}
+	.tour_button{
+		margin: 20px auto 0;
+	}
+	.btn_tour {
+	    width: 125px;
+	    height: 40px;
+	    color: #ffffff;
+		border: 1px solid #ecae3d;
+	    background-color: #ecae3d;
+	}
+	/*Tour end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -221,6 +292,35 @@
 		padding: 20px 5px;
 	}
 	/*Band end*/
+
+	/*Tour start*/
+	.tour{
+		padding: 80px 0;
+	}
+	.date {
+	    padding: 30px 15px;
+	    font-size: 14px;
+	}
+	.inner_content {
+	    margin: 20px 0 0;
+	}
+	.t_h2 {
+	    font-size: 18px;
+	}
+	.seat{
+		margin: 20px auto 0;
+	}
+	.seat p{
+		margin: 0;
+	}
+	.tour_button{
+		margin: 20px auto 0;
+	}
+	.btn_tour {
+	    width: 125px;
+	    height: 40px;
+	}
+	/*Tour end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -249,6 +349,29 @@
 	    padding: 30px 15px;
 	}
 	/*Band end*/
+
+	/*Tour start*/
+	.date {
+	    padding: 12px 0px;
+	    font-size: 14px;
+	}
+	.inner_content {
+	    margin: 10px 0 0;
+	}
+	.t_h2 {
+	    font-size: 18px;
+	}
+	.seat{
+		margin: 10px auto 0;
+	}
+	.tour_button{
+		margin: 10px auto 0;
+	}
+	.btn_tour {
+	    width: 125px;
+	    height: 40px;
+	}
+	/*Tour end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
