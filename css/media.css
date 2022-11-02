@@ -31,7 +31,7 @@
 		padding: 70px 0 80px;
 	}
 	.common_h1{
-		font-size: 26px;
+		font-size: 22px;
 	}
 	.common_shape {
 	    width: 30%;
@@ -85,6 +85,12 @@
 	.tour{
 		padding: 70px 0;
 	}
+	.tour_content{
+		margin-top: 25px;
+	}
+	.t_title {
+	    margin-bottom: 30px;
+	}
 	.date {
 	    padding:15px 0;
 	    font-size: 14px;
@@ -100,13 +106,13 @@
 	    font-size: 18px;
 	}
 	.seat{
-		margin: 20px auto 0;
+		margin: 10px auto 0;
 	}
 	.seat p{
 		margin: 0;
 	}
 	.tour_button{
-		margin: 25px auto 0;
+		margin: 15px auto 0;
 	}
 	.btn_tour {
 	    width: 110px;
@@ -116,6 +122,25 @@
 	    background-color: #ecae3d;
 	}
 	/*Tour end*/
+
+	/*Gallery start*/
+	.gallery{
+		padding: 70px 0;
+	}
+	.g_title{
+		margin-bottom: 25px;
+	}
+	.gallery_content{
+		padding: 0 20px;
+	}
+	.g_h2 {
+	    margin: 70px 0 0;
+	    font-size: 16px;
+	}
+	.g_overlay hr {
+	    width: 25%;
+	}
+	/*Gallery end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -198,6 +223,12 @@
 	.tour{
 		padding: 70px 0;
 	}
+	.t_title {
+	    margin-bottom: 30px;
+	}
+	.tour_content{
+		margin-top: 25px;
+	}
 	.date {
 	    padding:15px 0;
 	    font-size: 14px;
@@ -228,6 +259,22 @@
 	    background-color: #ecae3d;
 	}
 	/*Tour end*/
+
+	/*Gallery start*/
+	.gallery{
+		padding: 70px 0;
+	}
+	.g_title{
+		margin-bottom: 25px;
+	}
+	.g_h2 {
+	    margin: 75px 0 0;
+	    font-size: 16px;
+	}
+	.g_overlay hr {
+	    width: 25%;
+	}
+	/*Gallery end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -321,7 +368,22 @@
 	    height: 40px;
 	}
 	/*Tour end*/
-}
+
+	/*Gallery start*/
+	.gallery{
+		padding: 80px 0;
+	}
+	.g_title{
+		margin-bottom: 30px;
+	}
+	.g_h2 {
+	    margin: 100px 0 0;
+	    font-size: 18px;
+	}
+	.g_overlay hr {
+	    width: 25%;
+	}
+	/*Gallery end*/
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -372,6 +434,12 @@
 	    height: 40px;
 	}
 	/*Tour end*/
+
+	/*Gallery start*/
+	.g_h2{
+		margin: 85px 0 0;
+	}
+	/*Gallery end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
@@ -412,4 +480,10 @@
 		margin-top: 40px;
 	}
 	/*Band end*/
+
+	/*Gallery start*/
+	.g_h2{
+		margin: 125px 0 0;
+	}
+	/*Gallery end*/
 }

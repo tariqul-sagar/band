@@ -10,6 +10,11 @@
 }
 
 @font-face{
+	src: url(../fonts/Raleway-Regular.ttf);
+	font-family: Raleway-Regular;
+}
+
+@font-face{
 	src: url(../fonts/Raleway-Medium.ttf);
 	font-family: Raleway-Medium;
 }
@@ -285,3 +290,58 @@ header{
 	background-color: #ecae3d !important;
 }
 /*Tour CSS end*/
+
+/*Gallery CSS start*/
+.gallery{
+	padding: 100px 0;
+}
+.g_title{
+	margin-bottom: 40px;
+}
+.g_h1{}
+.gallery_content{
+	margin-top: 20px;
+}
+.gallery_img{
+	position: relative;
+}
+.gallery_img img{
+	width: 100%;
+}
+.g_overlay{
+	text-align: center;
+}
+.g_overlay{
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(16,16,16,.6);	
+	opacity:0;
+	transition:all .5s ease 0s;
+	text-align: center;
+}
+.g_overlay hr{
+	margin: 7px auto 10px;
+	width: 30%;
+	color: #ffffff;
+}
+.g_h2{
+	margin: 105px 0 0;
+	font-family: Raleway-Regular;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.g_p{
+	margin: 0;
+	font-size: 14px;
+	color: #ecae3d;
+}
+.gallery_img:hover .g_overlay{
+	opacity:1;
+	cursor: pointer;
+}
+/*Gallery CSS end*/
