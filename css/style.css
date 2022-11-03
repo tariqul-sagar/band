@@ -160,7 +160,7 @@ header{
 	position: absolute;
 	font-size: 20px;
 	bottom: -9%;
-	left: 28%;
+	left: 30%;
 	color: #ecae3d;
 	background-color: #ffffff;
 }
@@ -492,7 +492,7 @@ header{
 	transition: .33s ease-in-out;
 }
 .news_p1{
-	margin-top: 20px;
+	margin-top: 16px;
 	font-size: 14px;
 	font-weight: 600;
 	text-align: center;
@@ -534,3 +534,34 @@ header{
 	color: #ecae3d;
 }
 /*News CSS end*/
+
+/*Comment CSS start*/
+.comment{
+	padding: 100px 0;
+}
+.comment_content{
+	text-align: center;
+}
+.com_inner{}
+.com_item{}
+.com_icon{
+	color: #101010;
+}
+.com_icon i{
+	font-size: 30px;
+}
+.com_shape{
+	margin: 25px auto 30px;
+}
+.quote1{
+    margin: -25px 0 0 55px;
+  	float: left;
+}
+.com_p{
+	padding: 0 85px;
+}
+.quote2{
+	margin: -16px 177px 0 0;
+    float: right;
+}
+/*Comment CSS end*/
