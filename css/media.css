@@ -243,6 +243,22 @@
 		margin: -24px 50px 0 0;
 	}
 	/*Comment end*/
+
+	/*Call start*/
+	.call{
+		padding: 30px 0;
+	}
+	.call_p {
+	    font-size: 15px;
+	}
+	.call_button{
+		margin-top: 20px;
+	}
+	.btn_call{
+		font-size: 15px;
+		width: 180px;
+	}
+	/*Call end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -480,6 +496,23 @@
 		margin: -14px 25px 0 0;
 	}
 	/*Comment end*/
+
+	/*Call start*/
+	.call{
+		padding: 30px 0;
+	}
+	.call_p {
+		padding: 0 55px;
+	    font-size: 15px;
+	}
+	.call_button{
+		margin-top: 20px;
+	}
+	.btn_call{
+		font-size: 15px;
+		width: 220px;
+	}
+	/*Call end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -671,6 +704,21 @@
 		margin: -14px 25px 0 0;
 	}
 	/*Comment end*/
+
+	/*Call start*/
+	.call{
+		padding: 40px 0;
+	}
+	.call_p {
+	    font-size: 16px;
+	}
+	.call_button{
+		margin-top: 20px;
+	}
+	.btn_call{
+		width: 220px;
+	}
+	/*Call end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
