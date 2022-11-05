@@ -147,6 +147,7 @@ header{
 }
 .feature_content{
 	margin-top: 50px;
+	padding-bottom: 15px;
 	transform: .33s ease-in-out;
 }
 .feature_content:hover {
