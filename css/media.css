@@ -199,11 +199,11 @@
 		padding: 30px 10px;
 	}
 	.news_overlay {
-	    width: 100px;
-	    height: 80px;
+	    width: 90px;
+	    height: 75px;
 	}
 	.news_p1 {
-	    margin-top: 20px;
+	    margin-top: 15px;
 	}
 	.news_h2{
 		font-size: 18px;
@@ -722,6 +722,7 @@
 		margin-right: 0;
 	}
 	.news_content{
+		margin-top: 55px;
 		margin-bottom: 50px;
 	}
 	.news_overlay {
@@ -805,8 +806,14 @@
 	.right_title{
 		margin-top: 40px;
 	}
+	.band_content {
+	    margin: 45px 3px 0;
+	}
+	.band_content hr {
+	    margin: 0 auto 13px;
+	}
 	.band_footer {
-	    padding: 20px 0 30px;
+	    padding: 15px 0 20px;
 	}
 	/*Band end*/
 
@@ -846,15 +853,31 @@
 	/*People end*/
 
 	/*News start*/
+	.news_left{
+		margin-top: 0;
+	}
+	.news_content {
+	    margin: 35px 3px 0;
+	}
+	.news_inner_content {
+	    padding: 20px 0;
+	}
 	.news_overlay {
-	    width: 75px;
-	    height: 60px;
+	    width: 65px;
+	    height: 55px;
 	}
 	.news_p1 {
 	    margin-top: 7px;
+	    font-size: 12px;
+	}
+	.news_p1 span {
+	    font-size: 14px;
 	}
 	.news_h2{
-		font-size: 18px;
+		font-size: 16px;
+	}
+	.news_p2 {
+	    font-size: 15px;
 	}
 	/*News end*/
 
@@ -874,8 +897,11 @@
 /*Extra large devices (desktops, 992px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 	/*Band satrt*/
+	.band_content {
+	    margin: 50px 3px 0;
+	}
 	.right_title{
-		margin-top: 40px;
+		margin-top: 70px;
 	}
 	/*Band end*/
 
@@ -906,7 +932,7 @@
 
 	/*Band satrt*/
 	.right_title{
-		margin-top: 40px;
+		margin-top: 85px;
 	}
 	.b_p2 {
 	    font-size: 16px;
