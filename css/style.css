@@ -75,7 +75,7 @@ body{
 }
 .common_shape{
 	margin: 0 auto;
-	width: 24%;
+	width: 18%;
 	height: 2px;
 	color: #ecae3d;
 	background-color: #ecae3d;
@@ -662,7 +662,9 @@ footer hr{
 	margin: 0;
 }
 .social_icon ul li{
-	padding: 5px 12px;
+	padding: 5px 10px;
+	width: 40px;
+	height: 40px;
 	border: 1px solid #ffffff;
     background-color: #ffffff;    
     border-radius: 50%;
@@ -673,13 +675,13 @@ footer hr{
     background-color: #ecae3d;
     cursor: pointer; 
 }
-.social_icon ul li:nth-child(3){
-	padding: 5px 8px;
-}
 .social_icon ul li a{
 	font-size: 18px;
 	color: #727272;
 	transition: .33s ease-in-out;
+}
+.social_icon ul li a i{
+	margin-top: 5px;
 }
 .social_icon ul li:hover a{
 	color: #ffffff;

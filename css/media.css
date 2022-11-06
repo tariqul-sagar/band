@@ -280,11 +280,11 @@
 	.social_icon ul li {
 	    padding: 3px 9px;
 	}
-	.social_icon ul li:nth-child(3) {
-	    padding: 3px 7px;
-	}
 	.social_icon ul li a {
 	    font-size: 16px;
+	}
+	.social_icon ul li a i {
+	    margin-top: 8px;
 	}
 	/*Footer end*/
 }
@@ -560,13 +560,13 @@
 	    margin: 20px auto;
 	}
 	.social_icon ul li {
-	    padding: 3px 9px;
-	}
-	.social_icon ul li:nth-child(3) {
-	    padding: 3px 7px;
+	    padding: 3px 5px;
 	}
 	.social_icon ul li a {
 	    font-size: 16px;
+	}
+	.social_icon ul li a i {
+	    margin-top: 8px;
 	}
 	/*Footer end*/
 }
